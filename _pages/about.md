@@ -12,9 +12,13 @@ profile:
   #   <p>''Hi, my name is Louis, third year Bichon Frise! I'm the first dog of AFGRL.''</p>
 
 news: true  # includes a list of news items
-sections: true
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottoss of the page
+sections: false
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottoss of the page
+latest_posts: false  # includes a list of the newest posts
+educations: false
+work : false
+teaching : false
 ---
 
 Hi, I'm Heewoong Noh.
