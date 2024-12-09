@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Full publications on <a href=https://scholar.google.com/citations?user=SYoXjKMAAAAJ&hl=en  style=color:#389AC4>Google Scholar.</a><br> Asterik(*) means equal contribution.
+description: Full publications on <a href=https://scholar.google.com/citations?user=VIAHsCMAAAAJ&hl=en  style=color:#389AC4>Google Scholar.</a><br> Asterik(*) means equal contribution.
 # sections:
 #   - bibquery: "@inproceedings"
 #     text: "Conferences"
