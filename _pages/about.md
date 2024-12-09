@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottoss of the page
 ---
 
-Hi, I'm Heewoong Noh..
+Hi, I'm Heewoong Noh.
 I'm a master student in the Industrial and Systems Department at KAIST,
 where I am fortunate to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/).
 
