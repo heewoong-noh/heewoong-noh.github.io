@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /assets/pdf/CV.pdf
+permalink: /assets/pdf/CV_Heewoong_Noh.pdf
 title: CV
 nav: true
-nav_order: 4
-cv_pdf: CV.pdf
+nav_order: 3
+cv_pdf: CV_Heewoong_Noh.pdf
 ---
