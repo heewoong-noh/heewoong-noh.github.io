@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Master student in Machine Learning
+subtitle: Ph.D. student in AI for Materials Discovery
 
 profile:
   align: right
@@ -22,19 +22,12 @@ teaching : false
 ---
 
 Hi, I'm Heewoong Noh.
-I'm a master student in the Industrial and Systems Department at KAIST,
+I'm a Ph.D. student in the Industrial and Systems Department at KAIST,
 where I am fortunate to be advised by [Prof. Chanyoung Park](http://dsail.kaist.ac.kr/professor/).
 
 I'm currently engaged in research activities alongside my great colleagues at [Data Science and Artificial Intelligence Lab](http://dsail.kaist.ac.kr/).
 
+My primary research interest lies in AI for Materials Discovery, focusing on developing AI and LLM-based agentic systems to accelerate materials design and synthesis, bridging computational prediction with experimental discovery.
+- AI-driven materials design and synthesis
+- LLM agents for scientific discovery
 
-<!-- Nowadays, the amount of data that is generated every minute in the world makes it challenging to locate the values we require.
-Therefore, it is essential to automatically extract knowledge from real-world data and create AI solutions for a variety of real-world applications from many disciplines.
-
-Among the various data structures, I'm mainly interested in a graph structure, which is simple yet effective to represent complex relationships in reality. -->
-In the vast field of machine learning, my primary focus is to harness the potential of AI to address challenges in the domain of science.
-- AI4Science (Chemistry)
-- Large Language Models (LLMs) for Chemistry domain 
-- Multi-modal Learning
-
-<!-- My research spans across areas such as AI for Science (Chemistry), the utilization Large Language Models and Multi-Modal Learning." -->
