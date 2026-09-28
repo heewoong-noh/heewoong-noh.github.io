@@ -1,0 +1,776 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Heewoong Noh}
+\newcommand{\CVTitle}{Heewoong Noh's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{https://heewoong-noh.github.io/}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\par
+\href{mailto:heewoongnoh@kaist.ac.kr}
+{heewoongnoh@kaist.ac.kr}
+\,\SubBulletSymbol\,
+\href{https://heewoong-noh.github.io/}
+{Homepage}
+\,\SubBulletSymbol\,
+\href{https://scholar.google.com/citations?user=VIAHsCMAAAAJ&hl=en}
+{Google Scholar}
+\,\SubBulletSymbol\,
+\href{https://github.com/HeewoongNoh}
+{Github}
+\end{SubTitle}
+
+\begin{Body}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH INTEREST %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Research Interest}
+{Research Interest}
+{PDF:ResearchInterest}
+
+\Entry
+{\textbf{AI for Materials Discovery}}  
+\newline
+My research focuses on developing AI and LLM-based agentic systems to accelerate materials design and synthesis, bridging computational prediction with experimental discovery.
+\BulletItem
+\textbf{Keywords}: AI-driven materials design and synthesis,
+LLM agents for scientific discovery
+
+% \hfill
+% \DatestampYMD{2004}{05}{15} --
+% \DatestampYMD{2005}{05}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Project:
+% Investigations on the Use of Lasers to Measure Climate Change
+% \SubBulletItem
+% Supervisors:
+% Prof.~Jane~Citizen and
+% Dr~Ann~Yone
+% \SubBulletItem
+% Focus:
+% Climate change, lasers, statistical analysis, data analytics.
+% \end{Detail}
+
+%%%%%%%%%%%%%%%
+%% Research Experiences %%
+%%%%%%%%%%%%%%%
+
+% \Section
+% {Research Experiences}
+% {Research Experiences}
+% {PDF:Research Experiences}
+
+% \Entry
+% \href{https://www.titech.ac.jp/english}
+% {\textbf{Tokyo Institute of Technology (Tokyo Tech)}},
+% Tokyo, Japan
+
+% \Gap
+% \BulletItem
+% Visiting Student in Computer Science Department (Research-oriented)
+% \hfill
+% \DatestampYMD{2022}{10}{01} --
+% Present
+% %\DatestampYMD{2023}{08}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Host:
+% \href{http://www.net.c.titech.ac.jp/murata.html}
+% {Prof. Tsuyoshi Murata}
+% \SubBulletItem
+% Focus:
+% {\footnotesize Missing Features in GNNs, Heterophily}
+% \end{Detail}
+
+
+
+% \BigGap
+% \Entry
+% \href{https://www.kaist.ac.kr/en/}
+% {\textbf{Korea Adavanced Institute of Technology (KAIST)}},
+% Daejeon, South Korea
+
+% \Gap
+% \BulletItem
+% Research Student in Industrial \& Systems Engineering Department
+% \hfill
+% \DatestampYMD{2020}{12}{28} --
+% \DatestampYMD{2021}{02}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Advisor:
+% \href{http://dsail.kaist.ac.kr/professor/}
+% {Prof. Chanyoung Park}
+% \SubBulletItem
+% Topics:
+% {\footnotesize Graph Embeddings, GNNs, Recommeder Systems}
+% \end{Detail}
+
+% \BigGap
+% \Entry
+% \href{https://www.hanyang.ac.kr/web/eng}
+% {\textbf{Hanyang University}},
+% Seoul, South Korea
+
+% \Gap
+% \BulletItem
+% Research Student in Industrial Engineering Department
+% \hfill
+% \DatestampYMD{2020}{09}{01} --
+% \DatestampYMD{2021}{08}{01}
+% \begin{Detail}
+% \SubBulletItem
+% Advisor:
+% \href{http://ids.hanyang.ac.kr/professor.html}
+% {Prof. Kichun Lee}
+% \SubBulletItem
+% Topics:
+% {\footnotesize Collaborative Filtering based on Graphs, Support Vector Machines}
+% \end{Detail}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{https://www.kaist.ac.kr/en/}
+{\textbf{KAIST}},
+Daejeon, South Korea
+
+\Gap
+\BulletItem
+Ph.D. in
+\href{https://statistics.kaist.ac.kr/}
+{Industrial \& Systems Engineering}
+\hfill
+\DatestampYMD{2025}{03}{01} --
+Present
+%\DatestampYMD{2023}{08}{15}
+% \begin{Detail}
+% \SubBulletItem
+% Research Interest:
+% {\footnotesize AI4Science, LLMs and Agentic AI for Chemistry}
+% \SubBulletItem
+% Advisor:
+% \href{http://dsail.kaist.ac.kr/professor/}
+% {Prof. Chanyoung Park}
+% \end{Detail}
+
+\BulletItem
+M.S. in
+\href{https://statistics.kaist.ac.kr/}
+{Industrial \& Systems Engineering}
+\hfill
+\DatestampYMD{2023}{03}{01} -- \DatestampYMD{2025}{02}{28}
+\begin{Detail}
+\SubBulletItem
+Research Interest:
+{\footnotesize Machine Learning, AI4Science, LLMs for Chemistry}
+\SubBulletItem
+Advisor:
+\href{http://dsail.kaist.ac.kr/professor/}
+{Prof. Chanyoung Park}
+\end{Detail}
+
+\BigGap
+\Entry
+{\textbf{Korea University}},
+Seoul, South Korea
+
+\Gap
+\BulletItem
+B.S. in Industrial and Management Engineering {\textit{GPA: 3.94/4.5}}
+\hfill
+\DatestampYMD{2017}{03}{15} --
+\DatestampYMD{2023}{02}{15}
+\Gap
+\BulletItem
+Leave of absence for military service (Aug.2018 - Mar.2020)
+% \hfill
+% \DatestampYMD{2018}{08}{09} --
+% \DatestampYMD{2020}{03}{27}
+
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Publications\\ \scriptsize{\normalfont{(†: E\lowercase{qual contribution}})}}
+{Publications}
+{PDF:Publications}
+% \SubSection
+% {Journals}
+% {Journals}
+% {PDF:Journals}
+
+% % Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+% \begingroup
+% \renewcommand{\MaxNumberedItem}{[88]}
+
+% \Gap
+% \NumberedItem{[10]}
+% \href{http://www.example.com/my-paper-doi-5}
+% {\underline{J.~Doe}, J.~Citizen, and A.~Yone,
+% ``On lasers and climate change,''
+% \textit{Journal of Science},
+% vol.~89,
+% no.~2,
+% pp.~4123--4133,
+% \DatestampYM{2008}{02}.}
+
+% \Gap
+% \NumberedItem{[1]}
+% \href{http://www.example.com/my-paper-doi-4}
+% {\underline{J.~Doe} and J.~Citizen,
+% ``Measuring the extent of climate change,''
+% \textit{Global Scientific Journal},
+% vol.~12,
+% no.~4,
+% pp.~330--352,
+% \DatestampYM{2006}{12}.}
+
+% \endgroup
+
+% \BigGap
+\SubSection
+{Conferences}
+{Conferences}
+{PDF:Conferences}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[8888]}
+
+\Gap
+
+\NumberedItem{[C7]}
+\href{https://arxiv.org/abs/2602.07543}
+{A Structured LLM Framework for Inorganic Material Synthesis Planning}
+\newline
+\ \textbf{Heewoong Noh}, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
+\newline
+Conference on Neural Information Processing Systems (\textbf{NeurIPS 2026})
+
+\NumberedItem{[C6]}
+\href{https://arxiv.org/abs/2312.13289v2}
+{Learning Probabilistic Compositional Representation of Crystalline Materials}
+\newline
+\ Namkyeong Lee, \textbf{Heewoong Noh}, GyoungS. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
+\newline
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (\textbf{KDD 2026 AI for Science Track})
+
+
+\NumberedItem{[C5]}
+\href{https://arxiv.org/abs/2508.16112}
+{IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra}
+\newline
+\ \textbf{Heewoong Noh}, Namkyeong Lee, GyoungS. Na, Kibum Kim, Chanyoung Park
+\newline
+International Conference on Learning Representations(\textbf{ICLR 2026)}
+\NumberedItem{[C4]}
+\href{https://arxiv.org/abs/2503.06238}
+{Token-Efficient Item Representation via Images for LLM Recommender Systems}
+\newline
+\ \ Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, \textbf{Heewoong Noh}, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park
+\newline
+International Conference on Learning Representations(\textbf{ICLR 2026)}
+\NumberedItem{[C3]}
+\href{https://arxiv.org/abs/2412.02957}
+{3D Interaction Geometric Pre-training for Molecular Relational Learning}
+\newline  
+\ Namkyeong Lee, Yunhak Oh, \textbf{Heewoong Noh}, Gyoung S. Na, Minkai Xu, Hanchen Wang, Tianfan Fu, Chanyoung Park
+\newline
+Conference on Neural Information Processing Systems (\textbf{NeurIPS 2025 Spotlight})
+\NumberedItem{[C2]}
+\href{https://arxiv.org/abs/2410.21341}
+{Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge}
+\newline  
+\ \textbf{Heewoong Noh}, Namkyeong Lee,  GyoungS. Na*, Chanyoung Park*
+\newline
+Conference on Neural Information Processing Systems (\textbf{NeurIPS 2024})
+\NumberedItem{[C1]}
+\href{https://arxiv.org/abs/2311.12856}
+{Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer}
+\newline  
+\ Namkyeong Lee†, \textbf{Heewoong Noh†}, Sungwon Kim, Dongmin Hyun, GyoungS. Na, Chanyoung Park
+\newline
+Conference on Neural Information Processing Systems (\textbf{NeurIPS 2023})
+
+\endgroup
+
+\SubSection
+{Workshops}
+{Workshops}
+{PDF:Workshops}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[8888]}
+
+\Gap
+
+% \NumberedItem{[W3]}
+% \href{https://openreview.net/forum?id=O2irXCLp3q}
+% {MSP-LLM: A Unified Large Language Model Framework for Complete Material Synthesis Planning}
+% \newline
+% \ \textbf{Heewoong Noh}, GyoungS. Na, Namkyeong Lee,  Chanyoung Park
+% \newline 
+% ICLR Workshop on AI4Mat: Accelerated Materials Design (\textbf{AI4Mat 2026})
+\NumberedItem{[W3]}
+A Structured LLM Framework for Inorganic Material Synthesis Planning
+\newline
+\ \textbf{Heewoong Noh}, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
+\newline
+KDD Workshop on Agentic AI for Scientific and Societal Advances (\textbf{KDD 2026 Workshop Oral})
+\newline
+{\small \textit{Earlier version:}
+\href{https://openreview.net/forum?id=O2irXCLp3q}
+{``MSP-LLM: A Unified Large Language Model Framework for Complete
+Material Synthesis Planning''},
+ICLR Workshop on AI4Mat: Accelerated Materials Design (\textbf{AI4Mat 2026})}
+
+\NumberedItem{[W2]}
+\href{https://openreview.net/forum?id=DBiWSzlaGz}
+{Stoichiometry Representation Learning with Polymorphic Crystal Structures}
+\newline
+\ Namkyeong Lee, \textbf{Heewoong Noh}, GyoungS. Na, Tianfan Fu, Jimeng Sun, Chanyoung Park
+\newline 
+NeurIPS Workshop on AI for Scientific Discovery: From Theory to Practice (\textbf{AI4Science 2023})
+\NumberedItem{[W1]}
+\href{https://arxiv.org/abs/2303.07000}
+{Predicting Density of States via Multi-modal Transformer}
+\newline
+\ Namkyeong Lee†, \textbf{HeewoongNoh†}, Sungwon Kim, Dongmin Hyun, GyoungS. Na, Chanyoung Park
+\newline
+ICLR Workshop on Machine Learning for Materials (\textbf{ML4Materials 2023})
+
+
+\endgroup
+
+
+% \SubSection
+% {Preprints}
+% {Preprints}
+% {PDF:Preprints}
+% \begingroup
+% \renewcommand{\MaxNumberedItem}{[8888]}
+
+% \Gap
+% \NumberedItem{[P1]}
+% \href{https://arxiv.org/abs/2602.07543}
+% {MSP-LLM: A Unified Large Language Model Framework for Complete Material Synthesis Planning}
+% \newline
+% \ \textbf{Heewoong Noh}, GyoungS. Na, Namkyeong Lee,  Chanyoung Park
+
+
+
+% \NumberedItem{[P2]}
+% \href{https://arxiv.org/abs/2508.16112}
+% {IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra}
+% \newline
+% \ \textbf{Heewoong Noh}, Namkyeong Lee, GyoungS. Na, Kibum Kim, Chanyoung Park
+
+
+% \NumberedItem{[P1]}
+% \href{https://arxiv.org/abs/2503.06238}
+% {Image is All You Need: Towards Efficient and Effective Large Language Model-Based Recommender Systems}
+% \newline
+% \ \ Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, \textbf{Heewoong Noh}, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park
+
+
+% \endgroup
+%%%%%%%%%%%%%%%%%%
+%% PROJECTS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Projects}
+{Projects}
+{PDF:Projects}
+
+\textbf{Korea Research Institute of Chemical Technology (KRICT)}
+
+% \DatestampYMD{2022}{02}{15} 
+\BulletItem
+Geometric Deep Learning for Molecular Interactions
+\hfill 
+\DatestampY{2024}   
+
+
+\BulletItem
+Retrosynthesis Analysis for Inorganic Materials
+\hfill
+\DatestampY{2023}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SIGIR Travel, 카이 국장, Hanyang Dean's List, 최우수학업상, 의경
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+% \textbf{SIGIR Student Travel Award}
+% \hfill
+% \DatestampY{2022}
+% \BulletItem
+% ACM International Conference on Information and Knowledge Management, Georgia, USA
+
+
+\textbf{Gold Reviewer}, ICML
+\hfill
+\DatestampY{2026}
+\BulletItem
+ICML 2026 - Recognized as a Gold Reviewer (top 25\% of reviewers)
+
+
+\textbf{HAICon2021}, Korea Institute of Information Security \& Cryptology (KIISC)
+\hfill
+\DatestampYMD{2021}{11}{11}
+\BulletItem
+Awarded 6th place among 177 participating teams (AI Competition)
+\BulletItem
+Building an AI model for detecting security threats in industrial control systems (Time series anomaly detection)
+
+\textbf{Industrial Engineering Project Competition}, Korean Institute of Industrial Engineers(KIIE)
+\hfill
+\DatestampY{2021}
+\BulletItem
+Participation award in industrial engineering project competition
+\BulletItem
+Building UAM dynamic corridor algorithm
+
+\textbf{Veritas Scholarship}, Korea University
+\hfill
+\DatestampY{2021}
+\BulletItem
+Research on the detection of anomalies in the manufacturing process
+\SubBulletItem
+Advisor: Prof. Sungwon Han
+
+\textbf{Certificate of Recognition}, National Police Agency
+\hfill
+\DatestampYMD{2019}{10}{}
+\BulletItem
+Awarded when serving military service as an auxiliary police
+
+\Section
+{Professional Services}
+{Professional Services}
+{PDF:ProfessionalServices}
+\textbf{Conference Reviews}
+\BulletItem
+Conference on Neural Information Processing Systems(NeurIPS)  
+\hfill \DatestampY{2024} -- 2025
+\BulletItem
+International Conference on Machine Learning (ICML)  
+\hfill \DatestampY{2025} -- Present
+\BulletItem
+International Conference on Learning Representations (ICLR)  
+\hfill \DatestampY{2025} -- Present
+\BulletItem
+Conference on Information and Knowledge Management (CIKM ADS)  
+\hfill \DatestampY{2025} -- Present
+\BulletItem
+Conference on Information and Knowledge Management (CIKM Main\&Short)  
+\hfill \DatestampY{2025}
+
+\textbf{Journal Reviews}
+\BulletItem
+Transactions on Machine Learning Research(TMLR)  
+\hfill \DatestampY{2026} -- Present
+
+\textbf{Workshop Reviews}
+\BulletItem
+AI for Accelerated Materials Design(AI4Mat)@NeurIPS
+\hfill \DatestampY{2024} -- Present
+\BulletItem
+AI for Accelerated Materials Design(AI4Mat)@ICLR
+\hfill \DatestampY{2025} -- Present
+
+
+
+\Section
+{Talks and Seminars}
+{Talks and Seminars}
+{PDF:TalksandSeminars}
+
+\textbf{Learning Probabilistic Compositional Representation of Crystalline Materials}
+\BulletItem
+Lightning TALK: KDD 2026 Workshop on Reliable Scientific Foundation Models (RelSciFM)
+\hfill \DatestampY{2026}
+
+
+
+\textbf{Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge}
+\BulletItem
+TALK: Top Conference Session of Korea Computer Congress(KSC)  
+\hfill \DatestampY{2025}
+
+
+
+\textbf{Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer}
+\BulletItem
+TALK: Top Conference Session of Korea Software Congress(KSC)  
+\hfill \DatestampY{2023}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TEACHING EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+% {Teaching Experience}
+% {Teaching Experience}
+% {PDF:TeachingExperience}
+
+% \Entry
+% \textbf{IE343: Statistical Machine Learning}
+% \hfill
+% Spring, \DatestampY{2022}
+% \newline
+% Department of Industrial \& Systems Engineering, KAIST
+% \BulletItem
+% Hosted Kaggle Competition (Course Project) as a Teaching Assistant
+
+% Manual page break.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\href{http://dsail.kaist.ac.kr/professor/}
+{\textbf{Prof. Chanyoung Park}}, Associate Professor, KAIST
+\newline
+Email: \href{mailto:cy.park@kaist.ac.kr}{cy.park@kaist.ac.kr}
+
+% \BigGap
+% \BulletItem
+% \href{http://ids.hanyang.ac.kr/professor.html}
+% {\textbf{Prof. Kichun Lee}}, Associate Professor, Hanyang University
+% \newline
+% Email: \href{mailto:skylee@hanyang.ac.kr}{skylee@hanyang.ac.kr}
+
+% \BigGap
+% \BulletItem
+% \href{http://www.net.c.titech.ac.jp/murata.html}
+% {\textbf{Prof. Tsuyoshi Murata}}, Professor, Tokyo Tech
+% \newline
+% Email: \href{mailto:murata@c.titech.ac.jp}{murata@c.titech.ac.jp}
+
+% \newpage
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% OTHER WORK EXPERIENCE %%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+% {Other Work\newline
+% Experience}
+% {Other Work Experience}
+% {PDF:OtherWorkExperience}
+
+% \Entry
+% \href{http://www.example.com/my-company}
+% {\textbf{Alpha Engineering Firm}},
+% Oakland, Ohio, USA
+
+% \Gap
+% \BulletItem
+% Project Officer,
+% Department of Meteorological Sciences,
+% \hfill
+% \DatestampYMD{2007}{10}{15} --
+% \DatestampYMD{2008}{01}{15}
+% \newline
+% Research \& Development Division
+% \begin{Detail}
+% \SubBulletItem
+% Nullam venenatis egestas nisl eget elementum.
+% \SubBulletItem
+% Nulla finibus justo vel turpis efficitur, non lacinia orci maximus. Proin rhoncus, felis vel hendrerit lacinia, enim ipsum ultricies massa, sit amet interdum nisi massa sit amet justo.
+% \SubBulletItem
+% Etiam vitae eros mollis, consectetur quam quis, molestie massa.
+% \end{Detail}
+
+% %%%%%%%%%%%%%%%
+% %% LANGUAGES %%
+% %%%%%%%%%%%%%%%
+
+% \Section
+% {Languages}
+% {Languages}
+% {PDF:Languages}
+
+% \BulletItem
+% English: Native language.
+
+% \Gap
+% \BulletItem
+% Spanish: Fluent (speaking, reading, writing).
+
+% \Gap
+% \BulletItem
+% Latin: Intermediate (reading); basic (speaking, writing).
+
+% %%%%%%%%%%%%
+% %% SKILLS %%
+% %%%%%%%%%%%%
+
+% \Section
+% {Skills}
+% {Skills}
+% {PDF:Skills}
+
+% \Entry
+% {\TeX}, {\LaTeX}, {\XeLaTeX},
+% MATLAB,
+% Mathematica,
+% Maple,
+% R,
+% Tableau,
+% Adobe Photoshop,
+% Adobe Illustrator,
+% Microsoft Word,
+% Microsoft Excel,
+% Microsoft PowerPoint.
+
+% %%%%%%%%%%%%%%%
+% %% INTERESTS %%
+% %%%%%%%%%%%%%%%
+
+% \Section
+% {Interests}
+% {Interests}
+% {PDF:Interests}
+
+% \Entry
+% Digital photography,
+% typography,
+% swimming.
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% MULTILINGUAL UNICODE EXAMPLES %%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \Section
+% {Multilingual Unicode Examples}
+% {Multilingual Unicode Examples}
+% {PDF:MultilingualUnicodeExamples}
+
+% \BulletItem
+% Assortment of unicode characters from
+% \href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
+% {\url{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}}
+
+% \begin{Detail}
+% \Item
+% \textbf{Latin Extended-A}
+% Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
+% \textbf{Latin Extended-B}
+% ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
+% \textbf{Latin Extended Additional}
+% Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
+% \textbf{Greek}
+% ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
+% \textbf{Cyrillic}
+% Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
+% \textbf{Hebrew}
+% א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
+% \textbf{Armenian}
+% {\UseSecondaryFont
+% Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
+% \textbf{Thai}
+% {\UseSecondaryFont
+% ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
+% \end{Detail}
+
+% % Manual page break.
+% \newpage
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\UseNoteFont%
+\null\hfill%
+[\textit{\CVNote}]
+\end{document}
